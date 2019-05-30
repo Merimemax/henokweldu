@@ -1,0 +1,17 @@
+.container {
+    overflow: auto;
+    padding: 5px;
+}
+.pic {
+  float: left;
+  margin-right: 3%;
+}
+.net {
+    align-content: center;
+}
+.allnet {
+    align-content: center;
+}
+.fab {
+    font-size: 30px;
+}

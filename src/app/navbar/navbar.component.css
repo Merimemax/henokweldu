@@ -1,0 +1,14 @@
+a:hover {
+    background-color: rgb(75, 75, 75);
+    color: black;
+}
+.nav {
+  align-content: center;
+  width: 80% auto;
+  margin-left: 10% auto;
+}
+
+#main {
+  width: 70% auto;
+  margin: auto 20%; 
+}

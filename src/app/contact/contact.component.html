@@ -1,0 +1,29 @@
+<form [formGroup]="contactform" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Full Name</label>
+    <input formControlName="fullname" type="text" class="form-control" id="exampleFormControlInput1"
+      placeholder="full name">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input formControlName="email" type="email" class="form-control" id="exampleFormControlInput2"
+      placeholder="name@example.com">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Title</label>
+    <input formControlName="title" type="text" class="form-control" id="exampleFormControlInput3" placeholder="title">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea formControlName="message" class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+  </div>
+
+  <div class="form-group">
+    <input type="submit" class="form-control btn-secondary" id="exampleFormControlInput5"
+      [disabled]="!contactform.valid">
+  </div>
+
+</form>
