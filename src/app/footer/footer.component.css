@@ -1,10 +1,11 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
-    margin-top: 20%;
 }
 .allnet {
   align-content: center;
