@@ -1,4 +1,4 @@
-<nav class="navbarst">
+<!-- <nav class="navbarst">
   <div class="nav nav-pills nav-fill justify-content-center" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" role="tab" aria-controls="nav-home"
       aria-selected="true" [routerLink]="['/home']">Home</a>
@@ -16,5 +16,23 @@
 
     <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" role="tab" aria-controls="nav-contact"
       aria-selected="false" [routerLink]="['/contact']">Contact</a>
+  </div>
+</nav> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" [routerLink]="['/home']">Henok G Woldu Ph.D</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" [routerLink]="['/resume']">Resume</a>
+      <a class="nav-item nav-link" [routerLink]="['/publication-accepted']">Publications Accepted</a>
+      <a class="nav-item nav-link" [routerLink]="['/publication-under-review']">Publications Under Review</a>
+      <a class="nav-item nav-link" [routerLink]="['/contact']">Contact</a>
+    </div>
   </div>
 </nav>

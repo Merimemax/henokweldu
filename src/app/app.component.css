@@ -1,9 +1,30 @@
-#main {
-    width: 70% auto;
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #main {
+    width: 60% auto;
     margin: auto 20%; 
+  }
 }
 
-.navbar{
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main {
+    width: 70% auto;
+    margin: auto 15%; 
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #main {
     width: 80% auto;
-    margin: auto 20%; 
+    margin: auto 10%; 
+  }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #main {
+    width: 90% auto;
+    margin: auto 5%; 
+  }
 }
