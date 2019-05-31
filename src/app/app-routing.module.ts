@@ -6,11 +6,13 @@ import { PublicationacceptedComponent } from './publicationaccepted/publicationa
 import { PublicationunderreviewComponent } from './publicationunderreview/publicationunderreview.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ConferenceabstractComponent } from './conferenceabstract/conferenceabstract.component';
+import { PublicationComponent } from './publication/publication.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'resume', component: ResumeComponent },
+  { path: 'publications', component: PublicationComponent },
   { path: 'publication-accepted', component: PublicationacceptedComponent },
   { path: 'publication-under-review', component: PublicationunderreviewComponent },
   { path: 'conference-abstract', component: ConferenceabstractComponent },

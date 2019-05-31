@@ -1,4 +1,4 @@
-<form [formGroup]="contactform" (ngSubmit)="onSubmit()">
+<form [formGroup]="contactform" (ngSubmit)="onSubmit()" action="mailto:henokuga@gmail.com" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">Full Name</label>
     <input formControlName="fullname" type="text" class="form-control" id="exampleFormControlInput1"
@@ -22,7 +22,7 @@
   </div>
 
   <div class="form-group">
-    <input type="submit" class="form-control btn-secondary" id="exampleFormControlInput5"
+    <input type="submit" class="submit form-control btn-secondary" id="exampleFormControlInput5"
       [disabled]="!contactform.valid">
   </div>
 
