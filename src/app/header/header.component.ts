@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   name = "Henok G Woldu Ph.D";
-  description = "Data science from georgia state university, researcher in missouri state university";
+  description = "Data Science from Georgia State University, researcher in Missouri State University";
   constructor() { }
 
   ngOnInit() {

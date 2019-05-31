@@ -4,4 +4,11 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-  }
+}
+.allnet {
+  align-content: center;
+}
+a {
+  width: 15%;
+  margin: 15px;
+}

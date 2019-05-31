@@ -1,5 +1,9 @@
  a:hover {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(14, 14, 14);
     color: black;
+}
+a {
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
 
