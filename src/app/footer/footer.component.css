@@ -1,11 +1,12 @@
 footer {
-  
     position: relative;
     left: 0px;
     right: 0px;
     bottom: 0px;
     width: 100%;
     text-align: center;
+    clear: both;
+    overflow: hidden;
 }
 .allnet {
   align-content: center;
