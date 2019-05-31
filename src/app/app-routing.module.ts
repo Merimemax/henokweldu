@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PublicationacceptedComponent } from './publicationaccepted/publicationaccepted.component';
 import { PublicationunderreviewComponent } from './publicationunderreview/publicationunderreview.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ConferenceabstractComponent } from './conferenceabstract/conferenceabstract.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'resume', component: ResumeComponent },
   { path: 'publication-accepted', component: PublicationacceptedComponent },
   { path: 'publication-under-review', component: PublicationunderreviewComponent },
+  { path: 'conference-abstract', component: ConferenceabstractComponent },
   { path: 'contact', component: ContactComponent }
 ];
 

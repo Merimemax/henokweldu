@@ -16,6 +16,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+import { ConferenceabstractComponent } from './conferenceabstract/conferenceabstract.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { environment } from '../environments/environment';
     PublicationacceptedComponent,
     PublicationunderreviewComponent,
     ResumeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ConferenceabstractComponent
   ],
   imports: [
     BrowserModule,
