@@ -5,8 +5,10 @@ footer {
     bottom: 0px;
     width: 100%;
     text-align: center;
-    clear: both;
-    overflow: hidden;
+    margin-top: 70%;
+    margin-bottom: 0%;
+    /* clear: both; */
+    /* overflow: hidden; */
 }
 .allnet {
   align-content: center;
